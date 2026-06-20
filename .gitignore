@@ -1,0 +1,19 @@
+# Environment — never commit real keys
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Generated outputs
+outputs/
+
+# macOS
+.DS_Store
+
+# Leftovers
+ai-job-search/
