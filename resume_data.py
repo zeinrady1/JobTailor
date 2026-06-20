@@ -1,3 +1,7 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 RESUME = {
     "name": "Zein Rady",
     "summary": (
@@ -7,8 +11,8 @@ RESUME = {
         "structural results, and produce complete technical documentation across academic and professional environments."
     ),
     "contact": {
-        "email": "radyzein2003@gmail.com",
-        "phone": "(949) 501-6098",
+        "email": os.environ.get("CONTACT_EMAIL", ""),
+        "phone": os.environ.get("CONTACT_PHONE", ""),
         "linkedin": "linkedin.com/in/zein-rady-a3475227b",
         "github": "github.com/zeinrady1",
         "website": "zeinrady.com",

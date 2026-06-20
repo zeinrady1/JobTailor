@@ -31,7 +31,7 @@ async def search_jobs(query: str, location: str = "") -> dict:
 async def search_usajobs(query: str, location: str = "") -> list:
     headers = {
         "Host": "data.usajobs.gov",
-        "User-Agent": "radyzein2003@gmail.com",
+        "User-Agent": os.environ.get("CONTACT_EMAIL", ""),
         "Authorization-Key": os.environ.get("USAJOBS_API_KEY", ""),
     }
     jobs, page = [], 1
