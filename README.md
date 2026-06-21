@@ -21,7 +21,7 @@ An AI-powered job application tool that searches across 6 major job boards, then
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/zeinrady1/JobTailor.git
+git clone https://github.com/YOUR_USERNAME/JobTailor.git
 cd JobTailor
 ```
 
