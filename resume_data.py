@@ -16,6 +16,7 @@ RESUME = {
         "linkedin": "linkedin.com/in/zein-rady-a3475227b",
         "github": "github.com/zeinrady1",
         "website": "zeinrady.com",
+        "citizenship": "US Citizen",
     },
     "education": [
         {

@@ -172,7 +172,7 @@ def _html_shell(body_content: str, title: str = "Zein Rady – Resume") -> str:
         f"{c['email']} &nbsp;|&nbsp; {c['phone']} &nbsp;|&nbsp; "
         f'<a href="https://{c["linkedin"]}">{c["linkedin"]}</a> &nbsp;|&nbsp; '
         f'<a href="https://{c["github"]}">{c["github"]}</a> &nbsp;|&nbsp; '
-        f'{c["website"]}'
+        f'{c["website"]} &nbsp;|&nbsp; {c["citizenship"]}'
     )
     return f"""<!DOCTYPE html>
 <html lang="en">
